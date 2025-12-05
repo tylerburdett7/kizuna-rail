@@ -63,7 +63,7 @@
             <h2>Operating Schedule</h2>
             <div class="months-grid">
                 <% details.operatingMonths.forEach(function(month) { %>
-                <span class="month-badge"><%= month %></span>
+                <span class="month-badge"><%= monthNumberToAbbreviation(month) %></span>
                 <% }); %>
             </div>
         </div>
