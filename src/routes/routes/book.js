@@ -1,4 +1,4 @@
-import { createConfirmation, getScheduleById, getTicketOptionsForRoute } from '../models/model.js';
+import { createConfirmation, getScheduleById, getTicketOptionsForRoute } from '../../models/model.js';
 
 const bookingPage = async (req, res) => {
     const { scheduleId } = req.params;
